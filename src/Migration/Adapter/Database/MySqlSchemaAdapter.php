@@ -276,6 +276,7 @@ class MySqlSchemaAdapter implements SchemaAdapterInterface
      */
     protected function getForeignKeys(string $tableName): ?array
     {
+        return [];
         $sql = sprintf("SELECT
                 cols.TABLE_NAME,
                 cols.COLUMN_NAME,
