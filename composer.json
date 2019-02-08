@@ -1,5 +1,5 @@
 {
-  "name": "odan/phinx-migrations-generator",
+  "name": "kadebs/phinx-migrations-generator",
   "type": "library",
   "description": "Migration generator for Phinx",
   "keywords": [
